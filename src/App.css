@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+/* PARTIE HEADER */
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 0 30px 50px;
+  font-size: 30px;
+  border-bottom: solid 1px lightgray;
+}
+header i {
+  color: #5c48d3;
+  font-size: 40px;
+}
+
+.container {
+  width: 1024px;
+  margin: 200px auto;
+  background: lightcoral;
+  padding: 0px 50px;
+}
+
+/* PARTIE FOOTER */
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+footer span {
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin: 25px 0;
+}
+.button {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.buttonNoClicked {
+  background: white;
+  color: #5c48d3;
+}
+
+.buttonClicked {
+  background: #5c48d3;
+  color: white;
+}
