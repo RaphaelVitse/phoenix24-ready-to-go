@@ -16,10 +16,13 @@ header i {
 }
 
 .container {
-  width: 1024px;
+  width: 800px;
   margin: 200px auto;
-  background: lightcoral;
+  /* background: lightcoral; */
   padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* PARTIE FOOTER */
@@ -43,16 +46,31 @@ footer span {
   border: none;
   outline: none;
   padding: 15px 20px;
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   border-radius: 10px;
 }
 
-.buttonNoClicked {
+.button-no-clicked {
   background: white;
   color: #5c48d3;
 }
 
-.buttonClicked {
+.button-clicked {
   background: #5c48d3;
   color: white;
+}
+
+.result {
+  padding: 30px 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  width: 150px;
+}
+.red-result {
+  background: red;
+}
+.green-result {
+  background: green;
 }
