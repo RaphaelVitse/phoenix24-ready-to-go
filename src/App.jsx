@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header title="Ready To Go" />
       <main className="container">
         <div className="left-container">
           <TwoButton switch={switch1} setSwitch={setSwitch1} />
@@ -33,7 +33,7 @@ function App() {
           <SingleButton switch1={switch1} switch2={switch2} switch3={switch3} />
         </div>
       </main>
-      <Footer s />
+      <Footer />
     </>
   );
 }
