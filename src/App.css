@@ -39,6 +39,11 @@ footer span {
   font-weight: bold;
 }
 
+.minus,
+.plus,
+.reset {
+  background: lightgreen;
+}
 .button-container {
   display: flex;
   justify-content: flex-start;
