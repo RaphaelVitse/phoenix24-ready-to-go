@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import TwoButton from "./components/twoButton";
+import TwoButton from "./components/TwoButton";
 import SingleButton from "./components/SingleButton";
 
 import "./App.css";
