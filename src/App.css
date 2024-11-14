@@ -20,7 +20,7 @@ header img {
 }
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 200px auto;
   /* background: lightcoral; */
   padding: 0px 50px;
@@ -31,6 +31,9 @@ header img {
 
 /* PARTIE FOOTER */
 
+footer {
+  margin-top: 50px;
+}
 footer p {
   text-align: center;
   font-size: 15px;
@@ -77,4 +80,16 @@ footer span {
 }
 .green-result {
   background: green;
+}
+
+@media (max-width: 550px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    margin: 0 auto;
+    background: blue;
+  }
 }
