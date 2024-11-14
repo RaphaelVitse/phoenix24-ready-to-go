@@ -11,14 +11,6 @@ function App() {
   const [switch2, setSwitch2] = useState(false);
   const [switch3, setSwitch3] = useState(false);
 
-  let decollage = false;
-  const decol = () => {
-    if (switch1 && switch2 && switch3) {
-      console.log(true);
-      return (decollage = true);
-    }
-  };
-
   return (
     <>
       <Header title="Ready To Go" />
